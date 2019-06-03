@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Palette</title>    
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <h1 id="header">CodeJam - Pallete</h1>
+        </header>
+
+        <main class="main">
+            <article class="main-workspace">
+                <section class="main-workspace-tools">
+                    <div class="main-workspace-tools-wrapper">
+                        <ul class="tools-items">
+                            <li class="tools">
+                                <img src="assets/pictures/paint-bucket-icon.svg" alt="" class="tools-icon">
+                                <button class="tools-button" id="bucket">Paint bucket</button>
+                            </li>
+                            <li class="tools">
+                                <img src="assets/pictures/eye-dropper-icon.svg" alt="" class="tools-icon">
+                                <button class="tools-button" id="color_picker">Choose color</button>
+                            </li>
+                            <li class="tools">
+                                <img src="assets/pictures/move-icon.svg" alt="" class="tools-icon">
+                                <button class="tools-button">Move</button>
+                            </li>
+                            <li class="tools">
+                                <img src="assets/pictures/transform-icon.svg" alt="" class="tools-icon">
+                                <button class="tools-button" id="transform">Transform</button>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="color">
+                    <div class="color-wrapper">
+                        <ul class="colors">
+                            
+                            <li class="colors-item">
+                                <div class="colors-display-wrapper">
+                                    <div class="colors-display preset-color" id="chosen_color"></div>
+                                </div>
+                                <p class="current-color">Current color</p>
+                            </li>
+
+                            <li class="colors-item">
+                                <div class="colors-display-wrapper">
+                                    <div class="colors-display preset-color-0"></div>
+                                    </div>
+                                <p class="previous-color">Previous color</p>
+                            </li>
+
+                            <li class="colors-item">
+                                <div class="colors-display-wrapper">
+                                    <div class="colors-display preset-color-1"></div>
+                                </div>
+                                <p class="preset-color preset-color1">Red</p>
+                                </li>
+
+                            <li class="colors-item">
+                                <div class="colors-display-wrapper">
+                                    <div class="colors-display preset-color-2"></div>
+                                </div>
+                                <p class="preset-color preset-color2">Blue</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="canvas-wrapper">
+                    <div class="canvas">
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                        <div class="canvas-item"></div>
+                    </div>
+                </section>
+            </article>
+
+        </main>
+
+        <script  src="assets/scripts/index.js"></script>
+    </body>
+
+    <footer></footer>
+
+</html>
